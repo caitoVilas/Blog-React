@@ -1,9 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from './assets/img/logo.svg';
+import './assets/css/App.css';
+import Menu  from "./components/Menu";
+import'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
     <div className="App">
+      <Menu></Menu>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
